@@ -16,6 +16,7 @@ jobs:
       fail-fast: false
       matrix:
         tag:
+          - 18
           - Custom-Node
     steps:
       - uses: actions/checkout@v3
